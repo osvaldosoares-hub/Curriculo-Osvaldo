@@ -14,6 +14,7 @@ export const ContainerHeader = styled.div`
 export const Header = styled.div`
     ${(background) => css`
     ${background}
+    position: relative;
     width: 980px;
     margin-left: 20%;
     display: flex;

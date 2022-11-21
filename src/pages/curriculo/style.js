@@ -81,7 +81,7 @@ export const DivText = styled.div`
     flex-direction: column;
     justify-content: space-around;
     width: 100%;
-    height: 60%;
+    height: 70%;
     margin-left: 2em;
     margin-top: 4em;
     h2{
@@ -105,6 +105,6 @@ export const DivText = styled.div`
 
 export const Linhaseparacao = styled.div`
    margin: 0.5em 0 0 0;
-    width: 50px;
+    width: 35px;
     border: 2px solid #E33F0E;
 `;

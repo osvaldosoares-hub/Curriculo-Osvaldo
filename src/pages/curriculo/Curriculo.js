@@ -17,11 +17,13 @@ function Curriculo() {
 
           <Styled.DivText color={colorCurriculo} >
             <h2>Quem sou </h2>
-            <Styled.Linhaseparacao>
+            <Styled.Linhaseparacao >
             </Styled.Linhaseparacao>
             <p style={{color:color}}>Sou desenvolvedor há 2 anos, atualmente trabalho em uma empresa de Manaus <a href='https://fermen.to/'>Fermen.to Innovation Lab</a> a 4 meses, Tambem desenvolvo para uma empresa junior da UFCA campos juazeiro do norte.<br/>Já fui Monitor de Estrutura de Dados em C</p>
             <h2>Tecnologias:</h2>
             <p style={{color:color}}>Html, CSS, Javascript, React.js, React com Typescript, node.js, C, Java</p>
+            <p style={{color:color}}>Trabalho: Remoto</p>
+            <p style={{color:color}}>Residência: Juazeiro do Norte</p>
           </Styled.DivText>
        </Styled.BodyCurriculo>
      
