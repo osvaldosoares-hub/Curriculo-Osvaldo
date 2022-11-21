@@ -19,6 +19,17 @@ export const ContainerBody = styled.div`
             transform: translateY(0);
         }
     }
+    @media (max-width:784px) {
+        margin:3em;
+        flex-direction: column;
+        align-items: center;
+        
+        img{
+            border-radius: 50%;
+            width: 200px;
+            height: 200px;
+        }
+    }
         
     
 `;
@@ -29,7 +40,9 @@ export const SectionBody = styled.div`
    justify-content: center;
     align-items: center;
     width: 30%;
-    
+    @media (max-width:784px) {
+        width: 100%;
+    }
 
 `;
 

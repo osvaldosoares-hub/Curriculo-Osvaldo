@@ -40,3 +40,14 @@ input:checked +label::after{
 
     left: calc(65% );
 } 
+@media(max-width:784px){
+    label::after{
+        top: 20.4%;
+        left: 59%;
+    }
+    input:checked +label::after{
+        left: calc(52% );
+    }
+
+
+}

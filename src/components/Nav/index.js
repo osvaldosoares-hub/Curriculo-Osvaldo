@@ -12,7 +12,7 @@ const Nav = ({abrir}) => {
     <Styled.ContainerNav >
       <Switcher/>
       <Styled.Nav color={color}>
-        <Link to='/'>Home</Link>
+        <Link to='/' >Home</Link>
         <Link to='/curriculo'>Curriculo</Link>
         <Link to='/portifolio'>Portifolio</Link>
         <Link to='/contato'>Contato</Link>

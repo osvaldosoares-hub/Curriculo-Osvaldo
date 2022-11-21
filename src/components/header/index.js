@@ -22,7 +22,7 @@ const Header = () => {
                 Desenvolvedor Junior, Juazeiro do Norte - CE
             </p>
         </Styled.Titulo>
-        <Nav abrir={menu}/>    
+        <Nav abrir={menu} />    
         
         </Styled.Header>
     </Styled.ContainerHeader>
