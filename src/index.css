@@ -1,13 +1,49 @@
-body {
+:root {
+  --color_0: 255,255,255;
+  --color_27: 232,158,247;
+  --color_1: 255,255,255;
+  --color_2: 0,0,0;
+  --color_3: 255,203,5;
+  --color_4: 237,28,36;
+  --color_5: 0,136,203;
+  --color_6: 0,0,0;
+  --color_7: 0,0,0;
+  --color_8: 255,255,255;
+  --color_28: 213,68,242;
+  --color_9: 0,0,0;
+  --color_10: 255,255,255;
+  --color_11: 255,255,255;
+  --color_12: 220,220,220;
+  --color_13: 168,168,168;
+  --color_14: 95,95,95;
+  --color_15: 48,48,48;
+  --color_16: 246,187,169;
+  --color_17: 236,151,125;
+  --color_18: 227,63,14;
+  --color_29: 142,45,162;
+  --color_19: 151,42,9;
+  --color_20: 76,21,5;
+  --color_21: 168,234,252;
+  --color_22: 125,223,250;
+  --color_23: 0,194,247;
+  --color_24: 0,129,165;
+  --color_25: 0,65,82;
+  --color_30: 71,23,81;
+  --color_31: 253,217,183;
+  --color_32: 252,198,147;
+  --color_33: 250,143,42;
+  --color_34: 167,95,28;
+  --color_35: 83,48,14;
+ 
+}
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+ 
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
