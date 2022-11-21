@@ -19,6 +19,10 @@ export const ContainerCurriculo = styled.div`
             transform: translateX(0);
         }
     }
+    @media (max-width:784px) {
+      margin: 1em;
+      flex-direction: column;
+    }
 `;
 export const DivImg = styled.div`
  
@@ -27,6 +31,15 @@ export const DivImg = styled.div`
     width: 600px;
     height: 450px;
     z-index: 0;
+    }
+    @media (max-width:784px) {
+     
+      img{
+        margin-top: 2em;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+      }
     }
 `;
 export const DivSobre = styled.div`
@@ -60,7 +73,13 @@ export const DivSobre = styled.div`
       button{
         visibility: hidden;
       }
-     
+      @media (max-width:784px) {
+        border-radius: 50%;
+        top: 22%;
+        
+        width: 250px;
+        height: 250px;
+    }
      
 `;
 export const BodyCurriculo = styled.div`
@@ -69,7 +88,14 @@ export const BodyCurriculo = styled.div`
       width: 980px;
       height: 450px;
       display: flex;
-      
+      @media (max-width:784px) {
+        width: 100%;
+        align-items: center;
+        height: auto;
+        flex-direction: column;
+      }
+
+
     `}
     
 `;
@@ -100,6 +126,15 @@ export const DivText = styled.div`
     a{
       text-decoration: none;
     }
+      @media (max-width:784px) {
+        width: 100%;
+        
+        
+        margin: 0 0 2em 3em;
+      }
+
+
+
     `}
 `;
 
