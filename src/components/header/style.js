@@ -23,7 +23,7 @@ export const Menuimg = styled.img`
         height: 24px;
         z-index: 99999;
         top: 0px;
-        left:95%;
+        left:90%;
     }
 `;
 
