@@ -10,6 +10,22 @@ export const ContainerHeader = styled.div`
     `};
    
 `;
+export const Menuimg = styled.img`
+   visibility: hidden;
+   opacity: 0;
+   width: 0;
+   height: 0;
+    @media(max-width: 786px){
+        visibility: visible;
+        position: relative;
+        opacity: 1;
+        width: 24px;
+        height: 24px;
+        z-index: 4;
+        top: 0px;
+        left:95%;
+    }
+`;
 
 export const Header = styled.div`
     ${(background) => css`
@@ -21,6 +37,11 @@ export const Header = styled.div`
     justify-content: space-between;
     align-items: center;
     height: 100%;
+    @media(max-width: 786px){
+        width: 100%;
+        margin:0;
+        justify-content: center;
+    }
     `};
     
     

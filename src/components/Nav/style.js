@@ -26,6 +26,9 @@ export const Nav = styled.nav`
         color: #fff;
         
     }
+    @media(max-width: 786px){
+        
+    }
     
     `}
 

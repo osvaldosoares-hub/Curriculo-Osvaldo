@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom'
 import { UseBackgroundContext } from '../../hook/useBackground'
 import Switcher from '../Switcher'
 import * as Styled from './style'
-const Nav = () => {
+const Nav = ({abrir}) => {
   const {color} = UseBackgroundContext()
+  
   return (
-    <Styled.ContainerNav>
+    <>
+    {abrir ?(
+    <Styled.ContainerNav >
       <Switcher/>
       <Styled.Nav color={color}>
         <Link to='/'>Home</Link>
@@ -15,6 +18,11 @@ const Nav = () => {
         <Link to='/contato'>Contato</Link>
       </Styled.Nav>
     </Styled.ContainerNav>
+    ) :(
+      <></>
+    )
+  }
+  </>
   )
 }
 
