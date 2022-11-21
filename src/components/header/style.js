@@ -17,12 +17,12 @@ export const Menuimg = styled.img`
    height: 0;
     @media(max-width: 786px){
         visibility: visible;
-        position: relative;
+        position: fixed;
         opacity: 1;
         width: 24px;
         height: 24px;
         z-index: 99999;
-        top: 0px;
+        top: 80px;
         left:90%;
     }
 `;

@@ -7,7 +7,7 @@ export const ContainerNav = styled.div`
     flex-direction: column;
     @media (max-width: 786px){
         background-color: #dcdcdcb4;
-        position: absolute;
+        position:fixed;
         width: 106vw;
         height: 100vh;
         top:0;
