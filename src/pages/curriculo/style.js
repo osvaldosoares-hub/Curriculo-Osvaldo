@@ -50,7 +50,7 @@ export const DivSobre = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      top: 29%;
+      top: 27%;
       :hover{
       background-color: rgba(0, 0, 0, 0.566);
       
