@@ -50,7 +50,7 @@ export const DivSobre = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      top: 27%;
+      top: 29%;
       :hover{
       background-color: rgba(0, 0, 0, 0.566);
       
@@ -117,7 +117,7 @@ export const DivText = styled.div`
         margin-top: 1em;
     }
     p{
-      width: 80%;
+      width: 90%;
       transition: color ease 0.4s;
       margin-top: 1em;
       text-align:justify;
@@ -127,7 +127,7 @@ export const DivText = styled.div`
       text-decoration: none;
     }
       @media (max-width:784px) {
-        width: 100%;
+        width: 80%;
         
         
         margin: 0 0 2em 3em;

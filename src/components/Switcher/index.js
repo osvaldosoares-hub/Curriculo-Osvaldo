@@ -14,7 +14,7 @@ const Switcher = () => {
     <div className="theme-switcher">
       
         <input type="checkbox" id="switcher" onClick={HandleTurnon}/>
-        <label for="switcher">Switcher</label>
+        <label for="switcher"></label>
     </div>    
 
   )

@@ -1,3 +1,4 @@
+
 input{
     
     width: 0;
@@ -7,37 +8,51 @@ input{
 }
 label{
     cursor: pointer;
+    content: '';
     display: block;
     text-indent: -99999px;
     height: 30px;
     width: 60px;
-    background-color: aliceblue;
+    background-color: rgb(0, 153, 255);
     border: 2px solid black;
     border-radius: 50px;
     margin-left: 1em;
     transition: .2s ease background-color;
+   
 }
 label::after{
+    
     position: absolute;
     content: '';
     width: 20px;
     height: 20px;
     border-radius: 50px;
     background-color: #000;
+    background-image: url('./sol.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
     top: 32.4%;
     left: 67.7%;
     transform: translate(-130%);
     transition: .5s ease;
+    
 }
 input:checked + label{
     
     background-color: #000;
     border: 3px solid white;
     
+    background-size: auto;
+    
 }
 input:checked +label::after{
-    background-color: aliceblue;
-
+    background-color: transparent;
+    
+    background-image: url('./lua-crescente.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: contain;
     left: calc(65% );
 } 
 @media(max-width:784px){

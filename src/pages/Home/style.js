@@ -19,6 +19,10 @@ export const ContainerBody = styled.div`
             transform: translateY(0);
         }
     }
+    
+    img{
+        border-radius: 40%;
+    }
     @media (max-width:784px) {
         margin:3em;
         flex-direction: column;
@@ -49,7 +53,7 @@ export const SectionBody = styled.div`
 export const DivText = styled.div`
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 85%;
     justify-content: space-around;
     
     height: 30%;
@@ -57,7 +61,8 @@ export const DivText = styled.div`
     h2{
         
         color:#E33F0E;
-        font-weight: 400;
+        font-weight: 500;
+        
     }
     p{
         color: #363636;

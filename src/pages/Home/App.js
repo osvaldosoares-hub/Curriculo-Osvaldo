@@ -21,13 +21,16 @@ function Home() {
             <h2>Projetos Recentes</h2>
             <Styled.Linhaseparacao>
             </Styled.Linhaseparacao>
-            <p>Trabalho em uma Empresa que presta serviços à uninassal, a pagina que eu fiz, como se fosse uma netflix, mas como videos aulas pros alunos, e tambem Desenvolvo junto com a Empresa jr da faculdade UFCA</p>
+            <p>Trabalho em uma Empresa que presta serviços à Uninassau. Fiz uma página como se fosse a Netflix, para os alunos acessarem as vídeo aulas das disciplinas.  
+Atualmente também faço parte e desenvolvo projetos na Empresa Júnior de Ciências da Computação da UFCA (Universidade Federal do Cariri).
+</p>
           </Styled.DivText>
           <Styled.DivText>
             <h2>Proximos Projetos </h2>
             <Styled.Linhaseparacao>
             </Styled.Linhaseparacao>
-            <p>Fazer um site para um empresa de São Paulo, e implementar um serviços, para um projeto da Empresa EuNoCiclo, para ajudar a limpeza da cidade Juazeiro do Norte</p>
+            <p>Fazer um site para um empresa de São Paulo; 
+Implementar serviços para um projeto da Empresa EuNoCiclo, para ajudar a limpeza da cidade Juazeiro do Norte.</p>
           </Styled.DivText>
         </Styled.SectionBody>
     </Styled.ContainerBody>

@@ -19,7 +19,9 @@ function Curriculo() {
             <h2>Quem sou </h2>
             <Styled.Linhaseparacao >
             </Styled.Linhaseparacao>
-            <p style={{color:color}}>Sou desenvolvedor há 2 anos, atualmente trabalho em uma empresa de Manaus <a href='https://fermen.to/'>Fermen.to Innovation Lab</a> a 4 meses, Tambem desenvolvo para uma empresa junior da UFCA campos juazeiro do norte.<br/>Já fui Monitor de Estrutura de Dados em C</p>
+            <p style={{color:color}}>Sou desenvolvedor há 2 anos, atualmente trabalho em uma empresa de Manaus, a Fermen.to Innovation Lab há 4 meses. 
+Também desenvolvo para a Empresa Júnior de Ciências da Computação da UFCA - campus Juazeiro do Norte.
+Além disso, já fui Monitor da disciplina de Estrutura de Dados em C na UFCA.</p>
             <h2>Tecnologias:</h2>
             <p style={{color:color}}>Html, CSS, Javascript, React.js, React com Typescript, node.js, C, Java</p>
             <p style={{color:color}}>Trabalho: Remoto</p>

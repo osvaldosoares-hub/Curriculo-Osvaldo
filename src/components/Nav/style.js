@@ -16,7 +16,43 @@ export const ContainerNav = styled.div`
         z-index:4;
     }
 `;
-
+export const ContainerNavMobile = styled.div`
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        @media (max-width: 786px){ 
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        }
+`;
+export const NavMobile = styled.nav`
+    ${(color) => css`
+   
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+   margin-top: 2em;
+   a{
+       ${color}
+       text-decoration: none;
+       height: 10%;
+       transition: color 0.4s ease 0s;
+   }
+   a:hover{
+       
+       text-decoration: underline;
+       
+       color: #fff;
+       
+   }
+`}
+        @media (max-width: 786px){ 
+        position: absolute;
+        visibility: hidden;
+        opacity: 0;
+        }
+`;
 export const Nav = styled.nav`
     ${(color) => css`
    

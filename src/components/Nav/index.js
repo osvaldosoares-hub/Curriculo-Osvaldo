@@ -19,7 +19,17 @@ const Nav = ({abrir}) => {
       </Styled.Nav>
     </Styled.ContainerNav>
     ) :(
-      <></>
+      <>
+       <Styled.ContainerNavMobile>
+      <Switcher/>
+      <Styled.NavMobile color={color}>
+        <Link to='/' >Home</Link>
+        <Link to='/curriculo'>Curriculo</Link>
+        <Link to='/portifolio'>Portifolio</Link>
+        <Link to='/contato'>Contato</Link>
+      </Styled.NavMobile>
+    </Styled.ContainerNavMobile>
+      </>
     )
   }
   </>
