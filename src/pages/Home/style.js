@@ -21,7 +21,7 @@ export const ContainerBody = styled.div`
     }
     
     img{
-        border-radius: 40%;
+        border-radius: 50%;
     }
     @media (max-width:784px) {
         margin:3em;
