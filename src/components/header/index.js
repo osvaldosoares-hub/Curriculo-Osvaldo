@@ -4,7 +4,7 @@ import Nav from '../Nav'
 import * as Styled from './style'
 const Header = () => {
   const {color,backgroundHeader} = UseBackgroundContext()
-  const [menu, setMenu] = useState(true)
+  const [menu, setMenu] = useState(false)
 
   const MenuAberto= ()=>{
       setMenu((s) => !s)
