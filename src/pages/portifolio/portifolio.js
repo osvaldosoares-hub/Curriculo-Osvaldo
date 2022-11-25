@@ -1,11 +1,11 @@
-
+import * as Styled from './style'
 
 function Portifolio() {
   return (
-    <div className="App">
+    <Styled.ContainerPortifolio>
        
-      ddddd
-    </div>
+      
+    </Styled.ContainerPortifolio>
   );
 }
 

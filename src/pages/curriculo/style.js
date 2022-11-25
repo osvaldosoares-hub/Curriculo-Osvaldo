@@ -124,7 +124,9 @@ export const DivText = styled.div`
 
     }
     a{
+      ${colorCurriculo}
       text-decoration: none;
+      
     }
       @media (max-width:784px) {
         width: 80%;
