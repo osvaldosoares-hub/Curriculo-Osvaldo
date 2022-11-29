@@ -1,12 +1,12 @@
 
-input{
+.theme-switcher input{
     
     width: 0;
     height: 0;
     visibility: hidden;
     
 }
-label{
+.theme-switcher label{
     position: relative;
     cursor: pointer;
     content: '';
@@ -19,7 +19,7 @@ label{
     transition: .2s ease background-color;
    
 }
-label::after{
+.theme-switcher label::after{
     margin-left: 1em;
     position: absolute;
     content: '';
@@ -37,7 +37,7 @@ label::after{
     transition: .5s ease;
     
 }
-input:checked + label{
+.theme-switcher input:checked + label{
     
     
     
@@ -45,7 +45,7 @@ input:checked + label{
     background-size: auto;
     
 }
-input:checked +label::after{
+.theme-switcher input:checked +label::after{
     background-color: transparent;
     
     background-image: url('./forma-de-meia-lua.png');
@@ -55,11 +55,11 @@ input:checked +label::after{
     left: calc(115% );
 } 
 @media(max-width:784px){
-    label::after{
+    .theme-switcher label::after{
         top: 10.4%;
         left: 100%;
     }
-    input:checked +label::after{
+    .theme-switcher input:checked +label::after{
         left: calc(54% );
     }
 

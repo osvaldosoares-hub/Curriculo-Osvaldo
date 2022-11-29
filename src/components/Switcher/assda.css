@@ -6,7 +6,7 @@ input{
     visibility: hidden;
     
 }
-label{
+.theme-switcher label{
     position: relative;
     cursor: pointer;
     content: '';
@@ -21,7 +21,7 @@ label{
     transition: .2s ease background-color;
    
 }
-label::after{
+.theme-switcher  label::after{
     
     position: absolute;
     content: '';
@@ -39,7 +39,7 @@ label::after{
     transition: .5s ease;
     
 }
-input:checked + label{
+.theme-switcher  input:checked + label{
     
     background-color: #000;
     border: 3px solid white;
@@ -47,7 +47,7 @@ input:checked + label{
     background-size: auto;
     
 }
-input:checked +label::after{
+.theme-switcher  input:checked +label::after{
     background-color: transparent;
     
     background-image: url('./lua-crescente.png');
@@ -57,11 +57,11 @@ input:checked +label::after{
     left: calc(59% );
 } 
 @media(max-width:784px){
-    label::after{
+    .theme-switcher label::after{
         top: 10.4%;
         left: 100%;
     }
-    input:checked +label::after{
+    .theme-switcher input:checked +label::after{
         left: calc(54% );
     }
 
