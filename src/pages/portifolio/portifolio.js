@@ -4,7 +4,7 @@ function Portifolio() {
   return (
     <Styled.ContainerPortifolio>
        
-      
+      <Styled.Titulo>Estou fazendo ainda</Styled.Titulo>
     </Styled.ContainerPortifolio>
   );
 }

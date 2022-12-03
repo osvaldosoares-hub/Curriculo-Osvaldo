@@ -3,13 +3,10 @@ import * as Styled from './style'
 function Contato() {
   return (
     <Styled.ContainerContato>
-       <Styled.Titulo>
-        Contate me
-       </Styled.Titulo>
        <Styled.ContainerForms>
-       <Styled.Titulo>
-        Contate me
-       </Styled.Titulo>
+       <Styled.Titulo2>
+        Quer contratar meu serviço, ou quer fazer um projeto pra sua empresa ou seu negocio, fale comigo
+       </Styled.Titulo2>
        <Styled.Forms onSubmit={''}>
         <Styled.Label>
           <span>Nome:</span>
@@ -19,7 +16,7 @@ function Contato() {
             required
             placeholder="Seu Nome"
             //onChange={(e) => setDisplayName(e.target.value)}
-            value={''}
+            
           />
         </Styled.Label>
         <Styled.Label>
@@ -30,7 +27,7 @@ function Contato() {
             required
             placeholder="Seu Sobrenome"
             //onChange={(e) => setDisplayName(e.target.value)}
-            value={''}
+            
           />
         </Styled.Label>
         <Styled.Label>
@@ -41,7 +38,7 @@ function Contato() {
             required
             placeholder="E-mail do usuário"
             //onChange={(e) => setEmail(e.target.value)}
-            //value={email}
+           
           />
           
 
@@ -54,14 +51,12 @@ function Contato() {
             required
             placeholder="Mensagem"
             //onChange={(e) => setEmail(e.target.value)}
-            //value={email}
+            
           />
-          
-
         </Styled.Label>
        <Styled.DivButton>
 
-       <button className="btn">Entrar</button>
+       <button className="btn">Enviar</button>
        </Styled.DivButton>
         
          
