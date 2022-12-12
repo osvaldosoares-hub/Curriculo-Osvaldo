@@ -17,6 +17,7 @@ function Contato() {
   const [emailerror, setemailError]= useState(true)
   const valueInput = e => setUser({ ...User, [e.target.name]: e.target.value });
   
+
   const HandleSubmit = (e)=>{
    
     e.preventDefault()
@@ -48,12 +49,15 @@ function Contato() {
     }
     
   }
-  console.log(type)
- console.log(User)
+  
+ 
  
   
   return (
     <Styled.ContainerContato>
+      
+
+
        <Styled.ContainerForms>
        <Styled.Titulo2>
         Quer contratar meu serviço, ou quer fazer um projeto pra sua empresa ou seu negocio, fale comigo
@@ -118,7 +122,15 @@ function Contato() {
          
         
       </Styled.Forms>
+      
       </Styled.ContainerForms>
+      <Styled.Contato>
+        <h3>Você pode falar tambem pelo whatsapp</h3>
+          <Styled.ButtonWhats>
+            <img src='/icons/whatsapp.png' alt='whatsapp'/>
+            <p>whatsapp</p>
+          </Styled.ButtonWhats>
+      </Styled.Contato>
        
     </Styled.ContainerContato>
   );

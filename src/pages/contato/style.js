@@ -3,20 +3,8 @@ import styled, { css } from "styled-components";
 export const ContainerContato= styled.div`
         width: 980px;
         margin-left: 20%;
-        height: 60vh;
-        animation: fromleft 1s backwards;
-    
-
-    @keyframes fromleft {
-        from{
-            opacity: 0;
-            transform: translateX(100px);
-        }
-        to{
-            opacity: 1;
-            transform: translateX(0px);
-        }
-    }
+        
+        
         
 `;
 
@@ -42,8 +30,25 @@ export const Titulo2 = styled.p `
 export const ContainerForms = styled.div`
         display: flex;
         justify-content: space-between;
-        gap: 8em;
-        height: 100%;
+        align-items: center;
+        gap: 6em;
+        height: 55vh;
+        animation: fromleft 1s backwards; 
+    @keyframes fromleft {
+        from{
+            opacity: 0;
+            transform: translateX(100px);
+        }
+        to{
+            opacity: 1;
+            transform: translateX(0px);
+        }
+    }
+        img{
+            width: 24px;
+            height: 24px;
+           
+        }
 `;
 
 export const Forms = styled.form`
@@ -59,6 +64,7 @@ export const DivButton = styled.div`
         display: flex;
         width: 100%;
         justify-content: center;
+        
 `;
 export const MensagemEnviada = styled.h3`
     ${(color) => css`
@@ -116,4 +122,26 @@ export const Label = styled.label`
         padding: 0.5em;
     }
     
+`;
+export const Contato = styled.div`
+   text-align: center;
+   
+
+`;
+export const ButtonWhats = styled.button`
+    border: none;
+    background-color: #128C7E;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em auto;
+
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+    padding: 0.5em;
+    :hover{
+        background-color: #075E54;
+    }
+
 `;
