@@ -125,7 +125,7 @@ export const Label = styled.label`
 `;
 export const Contato = styled.div`
    text-align: center;
-   
+   a{text-decoration:none;}
 
 `;
 export const ButtonWhats = styled.button`
