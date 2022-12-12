@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const ContainerContato= styled.div`
         width: 980px;
@@ -52,7 +52,7 @@ export const Forms = styled.form`
         margin-top: 5em;
        justify-content:space-between;
         align-items: center;
-        width: 70%;
+        width: 80%;
         height: 70%;
 `;
 export const DivButton = styled.div`
@@ -60,10 +60,49 @@ export const DivButton = styled.div`
         width: 100%;
         justify-content: center;
 `;
+export const MensagemEnviada = styled.h3`
+    ${(color) => css`
+    position: absolute;
+    top: 25%;
+    left: 57%;
+    ${color}
+    animation: titulo 1s backwards;
+        @keyframes titulo {
+        from{
+            opacity: 0;
+            
+        }
+        to{
+            opacity: 1;
+            
+        }
+    }
+    
+    
+   
+    `};
+    
+`
 export const Label = styled.label`
     display: flex;
     flex-direction: column;
     margin: 0 1em 1em 1em;
+    p{
+        animation: aparecendo 1s backwards;
+        width: 100%;
+        color: red;
+        @keyframes aparecendo {
+        from{
+            opacity: 0;
+            
+        }
+        to{
+            opacity: 1;
+            
+        }
+    }
+        
+    }
     input{
         border-top: none;
         border-left: none;
