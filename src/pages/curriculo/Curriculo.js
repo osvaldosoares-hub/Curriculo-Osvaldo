@@ -24,7 +24,7 @@ Também desenvolvo para a Empresa Júnior de Ciências da Computação da UFCA -
 Além disso, já fui Monitor da disciplina de Estrutura de Dados em C na UFCA.</p>
             <h2>Tecnologias:</h2>
             <p style={{color:color}}>Html, CSS, Javascript, React.js, React com Typescript, node.js, C, Java</p>
-            <p style={{color:color}}>Trabalho: Remoto</p>
+            <p style={{color:color}}>Trabalho: Remoto ou Presencial</p>
             <p style={{color:color}}>Residência: Juazeiro do Norte</p>
           </Styled.DivText>
        </Styled.BodyCurriculo>

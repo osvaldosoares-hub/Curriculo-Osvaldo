@@ -2,9 +2,10 @@ import React, { useState } from 'react'
 import { UseBackgroundContext } from '../../hook/useBackground'
 import './style.css'
 const Switcher = () => {
-    const [ligth, setLight] = useState(true)
+    const [ligth, setLight] = useState(false)
     const {dispatch} = UseBackgroundContext()
     const HandleTurnon = ()=>{
+      console.log(ligth)
         setLight((s) => !s)
         dispatch({type: ligth})
     }

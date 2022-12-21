@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 
 export const ContainerContato= styled.div`
         width: 980px;
@@ -8,12 +8,7 @@ export const ContainerContato= styled.div`
         
 `;
 
-export const Titulo = styled.h2 `
-        margin-top: 2em;
-        color: #E33F0E;
-        width: 100%;
-        text-align: center;
-`;
+
 export const Titulo2 = styled.p `
         margin-top: 2em;
         font-size: 20px;
@@ -22,7 +17,7 @@ export const Titulo2 = styled.p `
         display: flex;
         align-items:center;
         color: #E33F0E;
-        width: 60%;
+        
         text-align: justify;
         height: 50%;
 `;
@@ -32,7 +27,8 @@ export const ContainerForms = styled.div`
         justify-content: space-between;
         align-items: center;
         gap: 6em;
-        height: 55vh;
+        height: 65vh;
+        width: 100%;
         animation: fromleft 1s backwards; 
     @keyframes fromleft {
         from{
@@ -50,81 +46,9 @@ export const ContainerForms = styled.div`
            
         }
 `;
-
-export const Forms = styled.form`
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 5em;
-       justify-content:space-between;
-        align-items: center;
-        width: 80%;
-        height: 70%;
-`;
-export const DivButton = styled.div`
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        
-`;
-export const MensagemEnviada = styled.h3`
-    ${(color) => css`
-    position: absolute;
-    top: 25%;
-    left: 57%;
-    ${color}
-    animation: titulo 1s backwards;
-        @keyframes titulo {
-        from{
-            opacity: 0;
-            
-        }
-        to{
-            opacity: 1;
-            
-        }
-    }
-    
-    
-   
-    `};
-    
-`
-export const Label = styled.label`
-    display: flex;
-    flex-direction: column;
-    margin: 0 1em 1em 1em;
-    p{
-        animation: aparecendo 1s backwards;
-        width: 100%;
-        color: red;
-        @keyframes aparecendo {
-        from{
-            opacity: 0;
-            
-        }
-        to{
-            opacity: 1;
-            
-        }
-    }
-        
-    }
-    input{
-        border-top: none;
-        border-left: none;
-        border-right: none;
-        padding: 0.5em;
-        outline: none;
-    }
-    textarea{
-        width: 200px;
-        height: 70px;
-        padding: 0.5em;
-    }
-    
-`;
 export const Contato = styled.div`
    text-align: center;
+   width: 70%;
    a{text-decoration:none;}
 
 `;
