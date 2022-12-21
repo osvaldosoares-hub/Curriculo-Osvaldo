@@ -9,7 +9,7 @@ function Contato() {
 
        <Styled.ContainerForms>
        <Styled.Titulo2>
-        Quer contratar meu serviço, ou quer fazer um projeto pra sua empresa ou seu negocio, fale comigo
+       Quer contratar meu serviço e fazer um projeto pra sua empresa ou negócio? Entre em contato comigo!
        </Styled.Titulo2>
        <Styled.Contato>
         <h3>Você pode falar tambem pelo whatsapp</h3>
