@@ -56,7 +56,7 @@ export const DivText = styled.div`
     width: 85%;
     justify-content: space-around;
     
-    height: 30%;
+    
     margin-bottom: 2em;
     h2{
         
