@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerContato= styled.div`
-        width: 980px;
+       
         margin-left: 20%;
-        
-        
         
 `;
 
@@ -20,6 +18,9 @@ export const Titulo2 = styled.p `
         
         text-align: justify;
         height: 50%;
+        @media (max-width:784px) {
+    width: 100%;
+   }
 `;
 
 export const ContainerForms = styled.div`
@@ -28,7 +29,7 @@ export const ContainerForms = styled.div`
         align-items: center;
         gap: 6em;
         height: 65vh;
-        width: 100%;
+        width: 80%;
         animation: fromleft 1s backwards; 
     @keyframes fromleft {
         from{
@@ -45,11 +46,20 @@ export const ContainerForms = styled.div`
             height: 24px;
            
         }
+        @media (max-width:784px) {
+            flex-direction: column;
+            justify-content: center;
+        }
+
 `;
 export const Contato = styled.div`
    text-align: center;
    width: 70%;
    a{text-decoration:none;}
+   @media (max-width:784px) {
+    width: 100%;
+   }
+
 
 `;
 export const ButtonWhats = styled.button`
