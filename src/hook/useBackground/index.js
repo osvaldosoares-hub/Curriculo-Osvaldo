@@ -7,7 +7,7 @@ export const UseBackgroundContext = ()=>{
     const context = useContext(BackgroundContext)
     
     if(!context){
-        console.log('nao encontramos puta')
+        console.log('nao encontramos')
     }
     return context
 }

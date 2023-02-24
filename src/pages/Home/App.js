@@ -30,7 +30,7 @@ Atualmente também faço parte e desenvolvo projetos na Empresa Júnior de Ciên
             <Styled.Linhaseparacao>
             </Styled.Linhaseparacao>
             <p>Fazer um site para um empresa de São Paulo; 
-Implementar serviços para um projeto da Empresa EuNoCiclo, para ajudar a limpeza da cidade Juazeiro do Norte.</p>
+Implementar serviços para um projeto da Empresa Gir Gerenciamento Inteligente de resíduos, para ajudar a limpeza da cidade Juazeiro do Norte.</p>
           </Styled.DivText>
         </Styled.SectionBody>
     </Styled.ContainerBody>

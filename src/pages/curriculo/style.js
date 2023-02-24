@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const ContainerCurriculo = styled.div`
-    display: flex;
+    
     
 
     margin-top: 4em;
@@ -26,7 +26,7 @@ export const ContainerCurriculo = styled.div`
 `;
 export const DivImg = styled.div`
  
-  
+  position:relative;
   img{
     width: 600px;
     height: 450px;
@@ -50,7 +50,7 @@ export const DivSobre = styled.div`
       display: flex;
       justify-content: center;
       align-items: center;
-      top: 27%;
+      top: 0%;
       :hover{
       background-color: rgba(0, 0, 0, 0.566);
       
@@ -114,13 +114,15 @@ export const DivText = styled.div`
       transition: color ease 0.4s;
       ${colorCurriculo}
         font-weight: 400;
-        margin-top: 1em;
+        margin-top: 0.5em;
+        font-size: 20px;
     }
     p{
       width: 90%;
       transition: color ease 0.4s;
       margin-top: 1em;
       text-align:justify;
+      font-size: 15px;
 
     }
     a{
@@ -141,7 +143,24 @@ export const DivText = styled.div`
 `;
 
 export const Linhaseparacao = styled.div`
-   margin: 0.5em 0 0 0;
-    width: 35px;
-    border: 2px solid #E33F0E;
+    margin: 0.3em 0 0 0;
+    width: 100px;
+    border: 1px solid #E33F0E;
+`;
+
+export const SectionExperience = styled.div`
+      margin: 1em 0 0 0;
+`;
+export const DivSectionText = styled.div`
+
+  ul{
+    list-style: none;
+    margin-left: 1em;
+    li{
+      margin-top : 1em;
+    }
+  }
+
+  
+    
 `;
